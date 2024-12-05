@@ -1,0 +1,2 @@
+# SemesterProject
+Restaurant Check Manager
