@@ -1,3 +1,4 @@
+package RestaurantCheckProject;
 public class Workers {
     private String name;
     private int amount;
