@@ -174,7 +174,7 @@ public class RestaurantCheckProject {
             }
             else {
                 for (int i = 0; i < typesofworkers; i++) {
-                    System.out.printf("The total amount of tips is: %.2f\n", grandTip);
+                    System.out.printf("The total pooled tip amount is: %.2f\n", grandTip);
                     double workertip = (grandTip * (workers[i].getTip()/100))/workers[i].getAmount();
                     System.out.printf("Each " + workers[i].getName() + " gets: $%.2f\n", workertip);
                 }

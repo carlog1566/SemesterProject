@@ -131,6 +131,7 @@ public class OriginalRestaurantCheckProject {
             //Calculates and prints tips for each worker
             String[] worker = {"server","chef", "sous-chef", "kitchen aid", "host", "busser"};
             double[] workerpercentages = {.5, .15, .09, .06, .1, .1};
+            System.out.printf("The total pooled tip amount is: $%.2f\n", grandTip);
             for(int i = 0; i<6; i++) {
                 double workertip;
                 if (workeramounts[i] == 0) {
