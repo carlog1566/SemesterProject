@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class RestaurantCheckProject {
+public class OriginalRestaurantCheckProject {
     //Gets the input in the form of a non-negative double from the user
     private static double getDoubleInput(Scanner scnr, String prompt) {
         while (true) {
