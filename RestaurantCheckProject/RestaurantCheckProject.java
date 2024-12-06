@@ -169,12 +169,13 @@ public class RestaurantCheckProject {
                 workers[i] = new Workers(tempString, tempInt, tempDouble);
                 System.out.println();
             }
+            
+            System.out.printf("The total pooled tip amount is: %.2f\n", grandTip);
             if (percentTipTotal != 100) {
                 System.out.printf("Total percent is %.2f%%. It must equal 100%%. Please re-enter all values.\n", percentTipTotal);
             }
             else {
                 for (int i = 0; i < typesofworkers; i++) {
-                    System.out.printf("The total pooled tip amount is: %.2f\n", grandTip);
                     double workertip = (grandTip * (workers[i].getTip()/100))/workers[i].getAmount();
                     System.out.printf("Each " + workers[i].getName() + " gets: $%.2f\n", workertip);
                 }
