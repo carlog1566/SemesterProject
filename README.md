@@ -1,5 +1,6 @@
 # SemesterProject
 Restaurant Check Manager
+
 This application manages restaurant checks and divides tips amongst workers.
 
 The OriginalRestaurantCheckProject contains code for a tipping system that has a set amount of positions and tip percentages for each position.
